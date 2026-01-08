@@ -18,5 +18,8 @@ public abstract class Mood {
         this.day = day;
     }
 
+    public Mood(){
+        this.day = new Date();
+    }
 
 }
